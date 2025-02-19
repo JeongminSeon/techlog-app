@@ -53,10 +53,10 @@ group :development do
 
   # Highlight the fine-grained location where an error occurred [https://github.com/ruby/error_highlight]
   gem "error_highlight", ">= 0.4.0", platforms: [ :ruby ]
-  gem 'rubocop', require: false # 追加
-  gem 'rubocop-performance', require: false # 追加
-  gem 'rubocop-rails', require: false # 追加
-  gem 'rubocop-rspec' # 追加
+  gem "rubocop", require: false # 追加
+  gem "rubocop-performance", require: false # 追加
+  gem "rubocop-rails", require: false # 追加
+  gem "rubocop-rspec" # 追加
 end
 
 group :test do
@@ -64,4 +64,3 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
-
