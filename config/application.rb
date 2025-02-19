@@ -1,7 +1,6 @@
 require_relative "boot"
 require "rails/all"
 
-
 Bundler.require(*Rails.groups)
 
 module TechlogApp
@@ -12,5 +11,6 @@ module TechlogApp
     config.generators do |g|
       g.assets false          # CSS, JavaScriptファイルを自動生成しない
       g.helper     false      # helperファイルを自動生成しない
-  end
-end
+    end  # generators 블록 닫음
+  end  # Application 클래스 닫음
+end  # TechlogApp 모듈 닫음 (추가한 부분!)
