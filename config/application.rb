@@ -17,5 +17,7 @@ module TechlogApp
         helper_specs: false, # ヘルパーファイル用のスペックを作成しない
         routing_specs: false # routes.rb用のスペックファイル作成しない
     end  # generators 블록 닫음
+
+    config.i18n.default_locale = :ja 
   end  # Application 클래스 닫음
 end  # TechlogApp 모듈 닫음 (추가한 부분!)
