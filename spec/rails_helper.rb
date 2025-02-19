@@ -22,4 +22,5 @@ RSpec.configure do |config|
 
   # FactoryBot을 테스트에서 바로 사용할 수 있도록 설정
   config.include FactoryBot::Syntax::Methods
+  config.include Devise::Test::IntegrationHelpers, type: :system 
 end
